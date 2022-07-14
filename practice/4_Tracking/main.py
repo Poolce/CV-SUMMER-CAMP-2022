@@ -7,8 +7,7 @@ from tqdm import tqdm
 from common.annotation import AnnotationStorage, emulate_reallife_detector
 from tracker import Tracker, convert_tracks_to_annotation_storage
 from demonstrator import Demonstrator
-from evaluator import Evaluator
-
+from evaluator import Evaluat
 def main():
     parser = argparse.ArgumentParser(description="Simple object tracker demo")
     parser.add_argument("--annotation", required=True, help="Path to the annotation file")
